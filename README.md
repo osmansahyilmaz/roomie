@@ -1,6 +1,5 @@
-•	ROOMIE Mobile Application
 
-    o	Rommie is an application that allows recording common expenses of a group and keeping debts. 
+    o	Rommie is a mobile application that allows recording common expenses of a group and keeping debts. 
   
     o	Java, Spring Boot, MongoDB, Microservices, Spring Web, Restful Web Services, API’s, Endpoints, Android Studio
 
