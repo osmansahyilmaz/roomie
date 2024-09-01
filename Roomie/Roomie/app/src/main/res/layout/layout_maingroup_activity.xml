@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ROOMIE"
+        android:textSize="24sp"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="16dp"/>
+    <ListView
+        android:id="@+id/listViewExpenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnAddExpense"/>
+
+
+    <Button
+        android:id="@+id/btnAddExpense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add new expense"
+        android:drawableStart="@android:drawable/ic_input_add"
+        android:drawablePadding="8dp"
+        android:iconTint="@android:color/white"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="24dp"/>
+
+
+    <Button
+        android:id="@+id/btnViewMonthlyExpenses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monthly expenses"
+        android:background="@android:color/holo_red_dark"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>
